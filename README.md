@@ -122,59 +122,58 @@ Nexus XSS is a cutting-edge Cross-Site Scripting (XSS) vulnerability scanner des
     python NexusXSS.py -u "URL" --advanced-mode --random-agent
     ```
 
-### Help
+### Help 
+        python NexusXSS.py --help
+        
+        usage: NexusXSS.py [-h] [-u URL] [-f FILE] [--mode {fast,normal,thorough}] [--advanced-mode]
+                            [--evasion-level {low,medium,high}] [--random-agent] [--proxy PROXY] [--tor] [-o OUTPUT]
+                            [--format {html,json,txt}] [--threads THREADS] [--timeout TIMEOUT] [--delay DELAY]
+                            [--custom-payloads CUSTOM_PAYLOADS] [-v] [-q]
+        
+        Nexus XSS - Advanced Cross-Site Scripting Scanner
+        
+        options:
+          -h, --help            show this help message and exit
+          -u URL, --url URL     Target URL with XSS marker
+          -f FILE, --file FILE  File containing multiple URLs
+          --mode {fast,normal,thorough}
+                                Scanning mode
+          --advanced-mode       Enable advanced scanning techniques
+          --evasion-level {low,medium,high}
+                                Evasion technique level
+          --random-agent        Use random User-Agent
+          --proxy PROXY         Use proxy (e.g., http://127.0.0.1:8080)
+          --tor                 Use Tor network for scanning
+          -o OUTPUT, --output OUTPUT
+                                Output file path
+          --format {html,json,txt}
+                                Report format
+          --threads THREADS     Number of concurrent threads
+          --timeout TIMEOUT     Request timeout in seconds
+          --delay DELAY         Delay between requests
+          --custom-payloads CUSTOM_PAYLOADS
+                                Path to custom payloads file
+          -v, --verbose         Enable verbose output
+          -q, --quiet           Suppress all output except results
+        ---------------------------------------------------------------------------
 
-```bash 
-python NexusXSS.py --help
+⚠️ **Legal Disclaimer**
 
-usage: NexusXSS.py [-h] [-u URL] [-f FILE] [--mode {fast,normal,thorough}] [--advanced-mode]
-                    [--evasion-level {low,medium,high}] [--random-agent] [--proxy PROXY] [--tor] [-o OUTPUT]
-                    [--format {html,json,txt}] [--threads THREADS] [--timeout TIMEOUT] [--delay DELAY]
-                    [--custom-payloads CUSTOM_PAYLOADS] [-v] [-q]
+Nexus XSS is intended for authorized security testing and vulnerability assessment purposes only. It should only be used on systems and networks for which you have explicit permission to scan. Misuse of this tool for unauthorized activities is strictly prohibited and may result in legal consequences.
 
-Nexus XSS - Advanced Cross-Site Scripting Scanner
+🤝 **Contributing**
 
-options:
-  -h, --help            show this help message and exit
-  -u URL, --url URL     Target URL with XSS marker
-  -f FILE, --file FILE  File containing multiple URLs
-  --mode {fast,normal,thorough}
-                        Scanning mode
-  --advanced-mode       Enable advanced scanning techniques
-  --evasion-level {low,medium,high}
-                        Evasion technique level
-  --random-agent        Use random User-Agent
-  --proxy PROXY         Use proxy (e.g., http://127.0.0.1:8080)
-  --tor                 Use Tor network for scanning
-  -o OUTPUT, --output OUTPUT
-                        Output file path
-  --format {html,json,txt}
-                        Report format
-  --threads THREADS     Number of concurrent threads
-  --timeout TIMEOUT     Request timeout in seconds
-  --delay DELAY         Delay between requests
-  --custom-payloads CUSTOM_PAYLOADS
-                        Path to custom payloads file
-  -v, --verbose         Enable verbose output
-  -q, --quiet           Suppress all output except results
----------------------------------------------------------------------------
-    ⚠️ **Legal Disclaimer**
-    
-    Nexus XSS is intended for authorized security testing and vulnerability assessment purposes only. It should only be used on systems and networks for which you have explicit permission to scan. Misuse of this tool for unauthorized activities is strictly prohibited and may result in legal consequences.
-    
-    🤝 **Contributing**
-    
-    We welcome contributions from the cybersecurity community! If you'd like to contribute to Nexus XSS, please:
-    
-    * Fork the repository.
-    * Make your changes in a new branch.
-    * Submit a pull request with a clear description of your changes.
-    
-    Please read the [contributing guidelines](CONTRIBUTING.md) for more details.
-    
-    📞 **Contact**
-    
-    * GitHub Profile: [jehadaref007](https://github.com/jehadaref007)
-    * Issues and Suggestions: [GitHub Issues](https://github.com/jehadaref007/NexusXSS/issues)
-    
-    Developed with ❤️ by Jehad Aref for the cybersecurity community.
+We welcome contributions from the cybersecurity community! If you'd like to contribute to Nexus XSS, please:
+
+* Fork the repository.
+* Make your changes in a new branch.
+* Submit a pull request with a clear description of your changes.
+
+Please read the [contributing guidelines](CONTRIBUTING.md) for more details.
+
+📞 **Contact**
+
+* GitHub Profile: [jehadaref007](https://github.com/jehadaref007)
+* Issues and Suggestions: [GitHub Issues](https://github.com/jehadaref007/NexusXSS/issues)
+
+Developed with ❤️ by Jehad Aref for the cybersecurity community.
