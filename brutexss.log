@@ -1,0 +1,2 @@
+2025-02-24 02:53:04,921 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000182B8CF6950>

@@ -1,0 +1,136 @@
+2025-02-24 02:57:24,206 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001AD4B06F490>
+2025-02-24 03:04:40,024 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000129849CC0D0>
+2025-02-24 03:14:44,519 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001E87690CA50>
+2025-02-24 03:15:31,889 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000017DA7744590>
+2025-02-24 03:44:09,857 - ERROR - Unexpected error: 'ModernReportGenerator' object has no attribute 'generate_html'
+Traceback (most recent call last):
+  File "C:\Users\Jehad\OneDrive\Desktop\New folder\XSS tool\Nexus XSS - Copy\main.py", line 126, in main
+    html_report = controller.report_generator.save_report(results, "html")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jehad\OneDrive\Desktop\New folder\XSS tool\Nexus XSS - Copy\nexusxssmodel\reporting.py", line 29, in save_report
+    content = self.generate_html(results)
+              ^^^^^^^^^^^^^^^^^^
+AttributeError: 'ModernReportGenerator' object has no attribute 'generate_html'
+2025-02-24 03:44:09,877 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000021435920850>
+2025-02-24 03:45:39,435 - ERROR - Unexpected error: ' font-family'
+Traceback (most recent call last):
+  File "C:\Users\Jehad\OneDrive\Desktop\New folder\XSS tool\Nexus XSS - Copy\main.py", line 126, in main
+    html_report = controller.report_generator.save_report(results, "html")
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jehad\OneDrive\Desktop\New folder\XSS tool\Nexus XSS - Copy\nexusxssmodel\reporting.py", line 105, in save_report
+    content = self.generate_html(results)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jehad\OneDrive\Desktop\New folder\XSS tool\Nexus XSS - Copy\nexusxssmodel\reporting.py", line 57, in generate_html
+    """.format(
+        ^^^^^^^
+KeyError: ' font-family'
+2025-02-24 03:45:39,435 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002D04B0AA950>
+2025-02-24 04:12:03,826 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001ED0C0BF150>
+2025-02-24 04:12:16,536 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000020F61219DD0>
+2025-02-24 04:12:34,433 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000155F6F694D0>
+2025-02-24 04:12:53,404 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000222459F8A10>
+2025-02-24 04:13:10,691 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001FA86CB9810>
+2025-02-24 04:23:44,118 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<Connection.run() done, defined at C:\Users\Jehad\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:272> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\Jehad\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 279, in run
+    await self._transport.connect()
+  File "C:\Users\Jehad\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\Jehad\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jehad\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py", line 218, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jehad\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jehad\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 502, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-02-24 04:24:31,670 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000024BC4FEBDD0>
+2025-02-24 04:24:58,711 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<Connection.run() done, defined at C:\Users\Jehad\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:272> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\Jehad\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 279, in run
+    await self._transport.connect()
+  File "C:\Users\Jehad\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\Jehad\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jehad\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py", line 218, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jehad\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jehad\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 502, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-02-24 04:25:03,621 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001D4FFCCD410>
+2025-02-24 04:28:12,941 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<Connection.run() done, defined at C:\Users\Jehad\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:272> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\Jehad\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 279, in run
+    await self._transport.connect()
+  File "C:\Users\Jehad\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\Jehad\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jehad\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py", line 218, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jehad\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jehad\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 502, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-02-24 04:28:18,056 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000002594006D5D0>
+2025-02-24 04:51:07,569 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<Connection.run() done, defined at C:\Users\Jehad\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py:272> exception=NotImplementedError()>
+Traceback (most recent call last):
+  File "C:\Users\Jehad\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 279, in run
+    await self._transport.connect()
+  File "C:\Users\Jehad\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_transport.py", line 133, in connect
+    raise exc
+  File "C:\Users\Jehad\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_transport.py", line 120, in connect
+    self._proc = await asyncio.create_subprocess_exec(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jehad\AppData\Local\Programs\Python\Python311\Lib\asyncio\subprocess.py", line 218, in create_subprocess_exec
+    transport, protocol = await loop.subprocess_exec(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jehad\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 1694, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jehad\AppData\Local\Programs\Python\Python311\Lib\asyncio\base_events.py", line 502, in _make_subprocess_transport
+    raise NotImplementedError
+NotImplementedError
+2025-02-24 04:51:13,119 - ERROR - Unexpected error: 'ScanResult' object has no attribute 'id'
+Traceback (most recent call last):
+  File "C:\Users\Jehad\OneDrive\Desktop\New folder\XSS tool\Nexus XSS\NexusXSS.py", line 206, in main
+    results = await controller.run_scan(urls, payloads)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Jehad\OneDrive\Desktop\New folder\XSS tool\Nexus XSS\NexusXSS.py", line 103, in run_scan
+    screenshot = await self.screenshot_capture.capture(result.url, result.id)
+                                                                   ^^^^^^^^^
+AttributeError: 'ScanResult' object has no attribute 'id'
+2025-02-24 04:51:13,119 - ERROR - Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001B128C4BB50>
