@@ -57,7 +57,7 @@ Nexus XSS is a cutting-edge Cross-Site Scripting (XSS) vulnerability scanner des
 * **Scan a single URL:**
 
     ```bash
-    python NexusXSS.py -u "[https://example.com/page?q=XSS](https://example.com/page?q=XSS)"
+    python NexusXSS.py -u "https://example.com/page?q=XSS OR https://example.com/page?q=XSS"
     ```
 
 * **Scan URLs from a file:**
@@ -69,7 +69,7 @@ Nexus XSS is a cutting-edge Cross-Site Scripting (XSS) vulnerability scanner des
 * **Fast scan mode:**
 
     ```bash
-    python NexusXSS.py -u "[https://example.com/page?q=XSS](https://example.com/page?q=XSS)" --mode fast
+    python NexusXSS.py -u "https://example.com/page?q=XSS OR https://example.com/page?q=XSS" --mode fast
     ```
 
 ### Advanced Commands
