@@ -28,7 +28,7 @@ Nexus XSS is a cutting-edge Cross-Site Scripting (XSS) vulnerability scanner des
 1.  **Clone the repository:**
 
     ```bash
-    git clone [repository link]
+    git clone https://github.com/jehadaref007/NexusXSS
     cd NexusXSS
     ```
 
