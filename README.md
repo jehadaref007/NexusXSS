@@ -157,24 +157,24 @@ options:
                         Path to custom payloads file
   -v, --verbose         Enable verbose output
   -q, --quiet           Suppress all output except results
-
-⚠️ **Legal Disclaimer**
-
-Nexus XSS is intended for authorized security testing and vulnerability assessment purposes only. It should only be used on systems and networks for which you have explicit permission to scan. Misuse of this tool for unauthorized activities is strictly prohibited and may result in legal consequences.
-
-🤝 **Contributing**
-
-We welcome contributions from the cybersecurity community! If you'd like to contribute to Nexus XSS, please:
-
-* Fork the repository.
-* Make your changes in a new branch.
-* Submit a pull request with a clear description of your changes.
-
-Please read the [contributing guidelines](CONTRIBUTING.md) for more details.
-
-📞 **Contact**
-
-* GitHub Profile: [jehadaref007](https://github.com/jehadaref007)
-* Issues and Suggestions: [GitHub Issues](https://github.com/jehadaref007/NexusXSS/issues)
-
-Developed with ❤️ by Jehad Aref for the cybersecurity community.
+---------------------------------------------------------------------------
+    ⚠️ **Legal Disclaimer**
+    
+    Nexus XSS is intended for authorized security testing and vulnerability assessment purposes only. It should only be used on systems and networks for which you have explicit permission to scan. Misuse of this tool for unauthorized activities is strictly prohibited and may result in legal consequences.
+    
+    🤝 **Contributing**
+    
+    We welcome contributions from the cybersecurity community! If you'd like to contribute to Nexus XSS, please:
+    
+    * Fork the repository.
+    * Make your changes in a new branch.
+    * Submit a pull request with a clear description of your changes.
+    
+    Please read the [contributing guidelines](CONTRIBUTING.md) for more details.
+    
+    📞 **Contact**
+    
+    * GitHub Profile: [jehadaref007](https://github.com/jehadaref007)
+    * Issues and Suggestions: [GitHub Issues](https://github.com/jehadaref007/NexusXSS/issues)
+    
+    Developed with ❤️ by Jehad Aref for the cybersecurity community.
